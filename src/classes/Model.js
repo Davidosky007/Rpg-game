@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-underscore-dangle */
 export default class Model {
   constructor() {
