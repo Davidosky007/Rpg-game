@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default class Map {
   constructor(scene, key, tileSetName, bgLayerName, blockedLayerName) {
     this.scene = scene;
