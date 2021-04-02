@@ -72,7 +72,7 @@ export default class Spawner {
   }
 
   removeObject(id) {
-    this.objectsCreated = this.objectsCreated.filter(obj => obj.id !== id);
+    this.objectsCreated = this.objectsCreated.filter((obj) => obj.id !== id);
     this.deleteObject(id);
   }
 
