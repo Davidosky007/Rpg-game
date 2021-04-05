@@ -2,7 +2,7 @@
 
 # Project Name
 
-  <h3 align="center">JavaScript / Capstone --> [Final Warrior]</h3>
+  <h3 align="center">JavaScript / Capstone --> [False Ninja]</h3>
 
 ![screenshot](./assets/Screenshot1.png)
 ![screenshot](./assets/Screenshot2.png)
