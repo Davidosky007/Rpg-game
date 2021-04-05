@@ -11,7 +11,7 @@ export default class CreditsScene extends Phaser.Scene {
   create() {
     this.creditsText = this.add.text(0, 0, 'Credits', { fontSize: '32px', fill: '#fff' });
     this.thanksText = this.add.text(0, 0, 'Special thanks to Microverse', { fontSize: '32px', fill: '#c41425' });
-    this.madeByText = this.add.text(0, 0, 'Created By: David Bassey[x360]', { fontSize: '26px', fill: '#fff' });
+    this.madeByText = this.add.text(0, 0, 'Created By: David Bassey', { fontSize: '26px', fill: '#fff' });
     this.contactText = this.add.text(0, 0, 'davidosky1@gmail.com', { fontSize: '18px', fill: '#32a852' });
     this.openText = this.add.text(0, 0,
       'Special thanks to the Developers at the OpenGameArt'
