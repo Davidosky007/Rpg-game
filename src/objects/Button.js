@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import Phaser from 'phaser';
 
 export default class Button extends Phaser.GameObjects.Container {
