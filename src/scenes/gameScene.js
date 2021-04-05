@@ -65,7 +65,7 @@ export default class GameScene extends Phaser.Scene {
         'items',
         0,
         chestObject.gold,
-        chestObject.id
+        chestObject.id,
       );
       this.chests.add(chest);
     } else {
