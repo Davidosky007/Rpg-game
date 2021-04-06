@@ -70,11 +70,6 @@ Install dependencies:
 npm install
 ```
 
-## Potential future features
-
-* Extend the game to a multiplayer online game
-* Add authentication process
-
 ### Usage
 
 Start the local webserver:
@@ -84,7 +79,14 @@ Start the local webserver:
 ### Run tests
 
 * Run the command and see the output:
-```$ npm run test```
+```$ npm run test``
+
+
+## Potential future features
+
+* Extend the game to a multiplayer online game
+* Add authentication process
+
 
 ## Author
 
