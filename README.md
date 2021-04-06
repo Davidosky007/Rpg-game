@@ -4,9 +4,9 @@
 
   <h3 align="center">JavaScript / Capstone --> [False Ninja]</h3>
 
-![screenshot](./assets/Screenshot1.png)
-![screenshot](./assets/Screenshot2.png)
-![screenshot](./assets/Screenshot3.png)
+![screenshot](./src/assets/Screenshot1.png)
+![screenshot](./src/assets/Screenshot2.png)
+![screenshot](./src/assets/Screenshot3.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
