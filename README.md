@@ -72,7 +72,7 @@ npm install
 
 ### Usage
 
-Start the local webserver:
+Start local webserver:
 
 ```$ npm start``` > will open a local webserver at <http://localhost:8081/> directly in your default browser with the game ready to be played
 
