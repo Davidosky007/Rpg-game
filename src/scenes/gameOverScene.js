@@ -1,4 +1,8 @@
+/* eslint-disable import/no-absolute-path */
+/* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
+import gameOverTitle from '/assets/ui/blue_button02.png';
+import sprImg from '/assets/sci1.png';
 import Button from '../objects/Button';
 import config from '../configs/config';
 import { postScore } from '../objects/apiScore';
@@ -14,8 +18,8 @@ export default class GameOverScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('gameOverTitle', 'assets/ui/blue_button02.png');
-    this.load.image('sprImg', 'assets/sci1.png');
+    this.load.image('gameOverTitle', 'gameOverTitle');
+    this.load.image('sprImg', 'sprImg');
   }
 
   create() {
