@@ -1,21 +1,20 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable import/no-absolute-path */
 /* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
-import logo from '/assets/zenva_logo.png';
-import button1 from '/assets/images/ui/blue_button01.png';
-import background from '/assets/level/background-extruded.png';
-import items from '/assets/images/items.png';
-import characters from '/assets/images/characters.png';
-import monsters from '/assets/images/monsters.png';
-import goldSound from '/assets/audio/Pickup.wav';
-import enemyDeath from '/assets/audio/EnemyDeath.wav';
-import playerAttack from '/assets/audio/PlayerAttack.wav';
-import playerDamage from '/assets/audio/PlayerDamage.wav';
-import playerDeath from '/assets/audio/PlayerDeath.wav';
+import logo from '../assets/zenva_logo.png';
+import button1 from '../assets/images/ui/blue_button01.png';
+import background from '../assets/level/background-extruded.png';
+import items from '../assets/images/items.png';
+import characters from '../assets/images/characters.png';
+import monsters from '../assets/images/monsters.png';
+import goldSound from '../assets/audio/Pickup.wav';
+import enemyDeath from '../assets/audio/EnemyDeath.wav';
+import playerAttack from '../assets/audio/PlayerAttack.wav';
+import playerDamage from '../assets/audio/PlayerDamage.wav';
+import playerDeath from '../assets/audio/PlayerDeath.wav';
 
 
-const mapJSON = require('../../assets/level/large_level1.json');
+const mapJSON = require('../assets/level/large_level1.json');
 
 export default class BootScene extends Phaser.Scene {
   constructor() {

@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable import/no-absolute-path */
 /* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
-import background from '/assets/ui/blue_button02.png';
+import background from '../assets/ui/blue_button02.png';
 import Button from '../objects/Button';
 
 export default class GuideScene extends Phaser.Scene {

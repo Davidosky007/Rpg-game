@@ -1,9 +1,7 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable import/no-absolute-path */
-/* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
-import gameOverTitle from '/assets/ui/blue_button02.png';
-import sprImg from '/assets/sci1.png';
+import gameOverTitle from '../assets/ui/blue_button02.png';
+import sprImg from '../assets/sci1.png';
 import Button from '../objects/Button';
 import config from '../configs/config';
 import { postScore } from '../objects/apiScore';
