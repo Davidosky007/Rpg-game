@@ -37,7 +37,7 @@ The player has a set velocity and can move across the map by using the arrow key
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://davidosky007.github.io/Rpg-game/)
 
 ## Getting Started
 
