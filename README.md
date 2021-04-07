@@ -4,9 +4,9 @@
 
   <h3 align="center">JavaScript / Capstone --> [False Ninja]</h3>
 
-![screenshot](./src/assets/Screenshot1.png)
-![screenshot](./src/assets/Screenshot2.png)
-![screenshot](./src/assets/Screenshot3.png)
+![screenshot](./assets/Screenshot1.png)
+![screenshot](./assets/Screenshot2.png)
+![screenshot](./assets/Screenshot3.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -72,7 +72,7 @@ npm install
 
 ### Usage
 
-Start local webserver:
+Start the local webserver:
 
 ```$ npm start``` > will open a local webserver at <http://localhost:8081/> directly in your default browser with the game ready to be played
 

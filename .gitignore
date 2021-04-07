@@ -1,15 +1,2 @@
 node_modules/
 package-lock.json
-Thumbs.db
-.DS_Store
-.idea
-*.suo
-*.sublime-project
-*.sublime-workspace
-.vscode
-
-# Vendors
-
-# Build
-dist/
-/npm-debug.log

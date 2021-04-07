@@ -1,23 +1,25 @@
 /* eslint-disable no-unused-vars */
+/* eslint-disable import/no-duplicates */
+/* eslint-disable import/no-absolute-path */
 /* eslint-disable import/no-unresolved */
 
 import Phaser from 'phaser';
-import blueButton1 from '../assets/ui/blue_button02.png';
-import blueButton2 from '../assets/ui/blue_button03.png';
-import phaserLogo from '../assets/logo.png';
-import box from '../assets/ui/grey_box.png';
-import checkedBox from '../assets/ui/blue_boxCheckmark.png';
-import upKey from '../assets/commands/KeyboardButtonsDir_up.png';
-import downKey from '../assets/commands/KeyboardButtonsDir_down.png';
-import leftKey from '../assets/commands/KeyboardButtonsDir_left.png';
-import rightKey from '../assets/commands/KeyboardButtonsDir_right.png';
-import spaceKey from '../assets/commands/OnscreenKeyboardButtonsSpace.png';
-import upKey0 from '../assets/commands/KeyboardButtonsDir_up0.png';
-import downKey0 from '../assets/commands/KeyboardButtonsDir_down0.png';
-import leftKey0 from '../assets/commands/KeyboardButtonsDir_left0.png';
-import rightKey0 from '../assets/commands/KeyboardButtonsDir_right0.png';
-import spaceKey0 from '../assets/commands/OnscreenKeyboardButtonsSpace0.png';
-import bgMusic from '../assets/fato_shadow_-_last_angel.mp3';
+import blueButton1 from '/assets/ui/blue_button02.png';
+import blueButton2 from '/assets/ui/blue_button03.png';
+import phaserLogo from '/assets/logo.png';
+import box from '/assets/ui/grey_box.png';
+import checkedBox from '/assets/ui/blue_boxCheckmark.png';
+import upKey from '/assets/commands/KeyboardButtonsDir_up.png';
+import downKey from '/assets/commands/KeyboardButtonsDir_down.png';
+import leftKey from '/assets/commands/KeyboardButtonsDir_left.png';
+import rightKey from '/assets/commands/KeyboardButtonsDir_right.png';
+import spaceKey from '/assets/commands/OnscreenKeyboardButtonsSpace.png';
+import upKey0 from '/assets/commands/KeyboardButtonsDir_up0.png';
+import downKey0 from '/assets/commands/KeyboardButtonsDir_down0.png';
+import leftKey0 from '/assets/commands/KeyboardButtonsDir_left0.png';
+import rightKey0 from '/assets/commands/KeyboardButtonsDir_left0.png';
+import spaceKey0 from '/assets/commands/OnscreenKeyboardButtonsSpace0.png';
+import bgMusic from '/assets/fato_shadow_-_last_angel.mp3';
 
 export default class PreloaderScene extends Phaser.Scene {
   constructor() {
