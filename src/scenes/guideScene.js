@@ -1,8 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/no-absolute-path */
-/* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
-import background from '/assets/ui/blue_button02.png';
 import Button from '../objects/Button';
 
 export default class GuideScene extends Phaser.Scene {
@@ -37,7 +33,7 @@ export default class GuideScene extends Phaser.Scene {
     input.scaleX = 0.4;
     input.scaleY = 0.6;
 
-    const style = 'background: url(background); border: none; border-radius: 5px; color: #fff;';
+    const style = 'background: url(assets/ui/blue_button02.png); border: none; border-radius: 5px; color: #fff;';
     const gameButton = this.add.dom(590, 412, 'button', style, 'Play');
     gameButton.scaleX = 1.5;
     gameButton.scaleY = 1.7;

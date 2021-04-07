@@ -1,25 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/no-duplicates */
-/* eslint-disable import/no-absolute-path */
-/* eslint-disable import/no-unresolved */
-
 import Phaser from 'phaser';
-import blueButton1 from '/assets/ui/blue_button02.png';
-import blueButton2 from '/assets/ui/blue_button03.png';
-import phaserLogo from '/assets/logo.png';
-import box from '/assets/ui/grey_box.png';
-import checkedBox from '/assets/ui/blue_boxCheckmark.png';
-import upKey from '/assets/commands/KeyboardButtonsDir_up.png';
-import downKey from '/assets/commands/KeyboardButtonsDir_down.png';
-import leftKey from '/assets/commands/KeyboardButtonsDir_left.png';
-import rightKey from '/assets/commands/KeyboardButtonsDir_right.png';
-import spaceKey from '/assets/commands/OnscreenKeyboardButtonsSpace.png';
-import upKey0 from '/assets/commands/KeyboardButtonsDir_up0.png';
-import downKey0 from '/assets/commands/KeyboardButtonsDir_down0.png';
-import leftKey0 from '/assets/commands/KeyboardButtonsDir_left0.png';
-import rightKey0 from '/assets/commands/KeyboardButtonsDir_left0.png';
-import spaceKey0 from '/assets/commands/OnscreenKeyboardButtonsSpace0.png';
-import bgMusic from '/assets/fato_shadow_-_last_angel.mp3';
 
 export default class PreloaderScene extends Phaser.Scene {
   constructor() {
@@ -102,22 +81,22 @@ export default class PreloaderScene extends Phaser.Scene {
     this.timedEvent = this.time.delayedCall(3000, this.ready, [], this);
 
     // load assets needed in our game
-    this.load.image('blueButton1', 'blueButton1');
-    this.load.image('blueButton2', 'blueButton2');
-    this.load.image('phaserLogo', 'phaserLogo');
-    this.load.image('box', 'box');
-    this.load.image('checkedBox', 'checkedBox');
-    this.load.image('upKey', 'upKey');
-    this.load.image('downKey', 'downKey');
-    this.load.image('leftKey', 'leftKey');
-    this.load.image('rightKey', 'rightKey');
-    this.load.image('spaceKey', 'spaceKey');
-    this.load.image('upKey0', 'upKey0');
-    this.load.image('downKey0', 'downKey0');
-    this.load.image('leftKey0', 'leftKey0');
-    this.load.image('rightKey0', 'xrightKey0');
-    this.load.image('spaceKey0', 'spaceKey0');
-    this.load.audio('bgMusic', ['bgMusic']);
+    this.load.image('blueButton1', '/assets/ui/blue_button02.png');
+    this.load.image('blueButton2', '/assets/ui/blue_button03.png');
+    this.load.image('phaserLogo', '/assets/logo.png');
+    this.load.image('box', '/assets/ui/grey_box.png');
+    this.load.image('checkedBox', '/assets/ui/blue_boxCheckmark.png');
+    this.load.image('upKey', '/assets/commands/KeyboardButtonsDir_up.png');
+    this.load.image('downKey', '/assets/commands/KeyboardButtonsDir_down.png');
+    this.load.image('leftKey', '/assets/commands/KeyboardButtonsDir_left.png');
+    this.load.image('rightKey', '/assets/commands/KeyboardButtonsDir_right.png');
+    this.load.image('spaceKey', '/assets/commands/OnscreenKeyboardButtonsSpace.png');
+    this.load.image('upKey0', '/assets/commands/KeyboardButtonsDir_up0.png');
+    this.load.image('downKey0', '/assets/commands/KeyboardButtonsDir_down0.png');
+    this.load.image('leftKey0', '/assets/commands/KeyboardButtonsDir_left0.png');
+    this.load.image('rightKey0', '/assets/commands/KeyboardButtonsDir_right0.png');
+    this.load.image('spaceKey0', '/assets/commands/OnscreenKeyboardButtonsSpace0.png');
+    this.load.audio('bgMusic', ['/assets/fato_shadow_-_last_angel.mp3']);
   }
 
   ready() {

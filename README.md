@@ -2,7 +2,7 @@
 
 # Project Name
 
-  <h3 align="center">JavaScript / Capstone --> [False Ninja]</h3>
+  <h3 align="center">JavaScript / Capstone --> [Final Warrior]</h3>
 
 ![screenshot](./assets/Screenshot1.png)
 ![screenshot](./assets/Screenshot2.png)
@@ -37,7 +37,7 @@ The player has a set velocity and can move across the map by using the arrow key
 
 ## Live Demo
 
-[Live Demo Link](https://davidosky007.github.io/Rpg-game/)
+[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 
@@ -70,6 +70,11 @@ Install dependencies:
 npm install
 ```
 
+## Potential future features
+
+* Extend the game to a multiplayer online game
+* Add authentication process
+
 ### Usage
 
 Start the local webserver:
@@ -79,14 +84,7 @@ Start the local webserver:
 ### Run tests
 
 * Run the command and see the output:
-```$ npm run test``
-
-
-## Potential future features
-
-* Extend the game to a multiplayer online game
-* Add authentication process
-
+```$ npm run test```
 
 ## Author
 
