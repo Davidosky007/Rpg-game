@@ -1,6 +1,17 @@
 import Phaser from 'phaser';
+import logo from '../assets/logo.png';
+import button1 from '../assets/images/ui/blue_button01.png';
+import background from '../assets/level/background-extruded.png';
+import items from '../assets/images/items.png';
+import characters from '../assets/images/characters.png';
+import monsters from '../assets/images/monsters.png';
+import goldSound from '../assets/audio/Pickup.wav';
+import enemyDeath from '../assets/audio/EnemyDeath.wav';
+import playerAttack from '../assets/audio/PlayerAttack.wav';
+import playerDamage from '../assets/audio/PlayerDamage.wav';
+import playerDeath from '../assets/audio/PlayerDeath.wav';
 
-const mapJSON = require('../../assets/level/large_level1.json');
+const mapJSON = require('../assets/level/large_level1.json');
 
 export default class BootScene extends Phaser.Scene {
   constructor() {
@@ -15,23 +26,23 @@ export default class BootScene extends Phaser.Scene {
   }
 
   loadImages() {
-    this.load.image('logo', 'assets/zenva_logo.png');
-    this.load.image('button1', 'assets/images/ui/blue_button01.png');
-    this.load.image('background', 'assets/level/background-extruded.png');
+    this.load.image('logo', logo);
+    this.load.image('button1', button1);
+    this.load.image('background', background);
   }
 
   loadSpriteSheets() {
-    this.load.spritesheet('items', 'assets/images/items.png', { frameWidth: 32, frameHeight: 32 });
-    this.load.spritesheet('characters', 'assets/images/characters.png', { frameWidth: 32, frameHeight: 32 });
-    this.load.spritesheet('monsters', 'assets/images/monsters.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.spritesheet('items', items, { frameWidth: 32, frameHeight: 32 });
+    this.load.spritesheet('characters', characters, { frameWidth: 32, frameHeight: 32 });
+    this.load.spritesheet('monsters', monsters, { frameWidth: 32, frameHeight: 32 });
   }
 
   loadAudio() {
-    this.load.audio('goldSound', ['assets/audio/Pickup.wav']);
-    this.load.audio('enemyDeath', ['assets/audio/EnemyDeath.wav']);
-    this.load.audio('playerAttack', ['assets/audio/PlayerAttack.wav']);
-    this.load.audio('playerDamage', ['assets/audio/PlayerDamage.wav']);
-    this.load.audio('playerDeath', ['assets/audio/PlayerDeath.wav']);
+    this.load.audio('goldSound', [goldSound]);
+    this.load.audio('enemyDeath', [enemyDeath]);
+    this.load.audio('playerAttack', [playerAttack]);
+    this.load.audio('playerDamage', [playerDamage]);
+    this.load.audio('playerDeath', [playerDeath]);
   }
 
   loadTileMap() {
