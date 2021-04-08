@@ -37,7 +37,7 @@ The player has a set velocity and can move across the map by using the arrow key
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://wonderful-perlman-3b9600.netlify.app/)
 
 ## Getting Started
 
