@@ -2,6 +2,8 @@ import Phaser from 'phaser';
 import Button from '../objects/Button';
 import config from '../configs/config';
 import { postScore } from '../objects/apiScore';
+import sprImg from '../assets/sci1.png';
+import gameOverTitle from '../assets/ui/blue_button02.png';
 
 export default class GameOverScene extends Phaser.Scene {
   constructor() {
@@ -14,8 +16,8 @@ export default class GameOverScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('gameOverTitle', 'assets/ui/blue_button02.png');
-    this.load.image('sprImg', 'assets/sci1.png');
+    this.load.image('gameOverTitle', gameOverTitle);
+    this.load.image('sprImg', sprImg);
   }
 
   create() {
